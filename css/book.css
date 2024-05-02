@@ -1,0 +1,108 @@
+
+
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+main {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.booking-form {
+    text-align: center;
+}
+
+.form-group {
+    margin: 20px 0;
+    text-align: left;
+}
+
+label {
+    font-weight: bold;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    nav ul {
+        text-align: center;
+        padding: 10px;
+    }
+
+    nav li {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+   
+
+    button {
+        width: 100%;
+        margin: 0%;
+    }
+}
+.hide{
+    display: none;
+}
+.textb{
+    text-align: center;
+    font-weight: bold;
+    color: #0a0a0a;
+}
+.div3{
+    background-color: #80d4f5;
+    color: #0a0a0a;
+    padding: 15px;
+    
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 30px;
+    outline: green;
+    
+}
+
+.div3:hover {
+    background-color: #555;
+    color: #fff;
+}
+.Submitbtn{
+    background-color: #0d0d0e;
+    color: #fff;
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    border-color: aqua;
+}
+
+.Submitbtn:hover {
+    background-color: #1f96f8;
+}
